@@ -21,7 +21,7 @@ print(len(feature))
 n_nodes = model.tree_.node_count
 print(n_nodes)
 
-img = misc.imread("image/colon_normal_rose100.tif")
+img = misc.imread("colon_normal_rose100.tif")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 h,w = img.shape
